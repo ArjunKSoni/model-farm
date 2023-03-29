@@ -103,5 +103,5 @@ def get_crop_info():
     else:
         return jsonify({"status":"fail"})
 
-# if __name__ == "__main":
-app.run(debug=False)
+if __name__ == "__main":
+    app.run(host="0.0.0.0",port=5000,debug=True)
