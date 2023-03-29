@@ -104,4 +104,4 @@ def get_crop_info():
         return render_template("form2.html")
 
 # if __name__ == "__main":
-app.run(debug=True)
+app.run(debug=False)
