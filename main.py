@@ -101,7 +101,7 @@ def get_crop_info():
         return jsonify({"crop":predicted, "ci":crop_img, "cn":crop_name, "cd":crop_desc})  
 
     else:
-        return render_template("form2.html")
+        return jsonify({"status":"fail"})
 
 # if __name__ == "__main":
 app.run(debug=False)
