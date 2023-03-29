@@ -1,4 +1,4 @@
-from flask import Flask,render_template,flash,redirect,request,  jsonify
+from flask import Flask,request,jsonify
 app = Flask(__name__)
 import soil
 import search_crop as sc
